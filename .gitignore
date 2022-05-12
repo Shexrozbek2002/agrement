@@ -1,0 +1,4 @@
+venv/
+PipFile
+PipFile.lock
+she.py
