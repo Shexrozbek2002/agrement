@@ -26,9 +26,9 @@ schema_view = get_swagger_view(title='Soil Test API', url='/')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
-    path('agrement/',include('contract_app.urls')),
+    path('agrement/', include('contract_app.urls')),
     url('api/doc', schema_view),
     re_path(r"^$", index),
     re_path(r"^(?:.*)/?$", index),
 ]
-urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

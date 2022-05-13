@@ -26,7 +26,7 @@ if os.name == 'nt':
     #os.environ['GDAL_DATA'] = "C:\Program Files\GDAL\gdal-data" 
     GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal304.dll'
     GEOS_LIBRARY_PATH=r'C:\OSGeo4W\bin\geos_c.dll'
-# Quick-start development settings - unsuitable for production
+
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -97,30 +97,19 @@ REST_FRAMEWORK = {
     ),
     'DEFAULT_PERMISSION_CLASSES': (
         'rest_framework.permissions.AllowAny',
-    #     # 'coredata.permissions.PaidServicePermission'
     ),
-    # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    # 'PAGE_SIZE': 10,
-    # 'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
-    # 'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
 }
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
-    # }
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'contract',
         'USER': 'postgres',
         'HOST': '127.0.0.1',
         'PORT': '5432',
-        'PASSWORD':'20020723',
-    
-        
+        'PASSWORD': '20020723',
     }
 }
 
