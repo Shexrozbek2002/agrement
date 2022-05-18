@@ -15,28 +15,12 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-if os.name == 'nt':
-    import platform
-    OSGeo4W = r"C:\OSGeo4W"
-    
-    os.environ['OSGEO4W_ROOT'] = OSGeo4W
-    os.environ['GDAL_DATA'] = OSGeo4W + r"\share\gdal"
-    os.environ['PROJ_LIB'] = OSGeo4W + r"\share\proj"
-    os.environ['PATH'] = OSGeo4W + r"\bin;" + os.environ['PATH']
-    #os.environ['GDAL_DATA'] = "C:\Program Files\GDAL\gdal-data" 
-    GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal304.dll'
-    GEOS_LIBRARY_PATH=r'C:\OSGeo4W\bin\geos_c.dll'
-
-# See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-isnvl*f=dgr&fo!w4p96gqn#t*bg$ux5&y6da7_8tv=vu_y052'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
 
 # Application definition
 
@@ -106,10 +90,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'contract',
-        'USER': 'postgres',
-        'HOST': '127.0.0.1',
+        'USER': 'sardor',
+        'HOST': '192.168.22.100',
         'PORT': '5432',
-        'PASSWORD': '20020723',
+        'PASSWORD': 'sardor',
     }
 }
 
@@ -164,5 +148,6 @@ MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-MAIN_URL = 'http://127.0.0.1:8000/'
+MAIN_URL = 'https://invoice.uzagrolab.uz'
 CORS_ORIGIN_ALLOW_ALL = True
+CSRF_TRUSTED_ORIGINS = ['https://invoice.uzagrolab.uz']

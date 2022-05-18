@@ -1,0 +1,2962 @@
+[
+{
+  "model": "contract_app.region",
+  "pk": 1,
+  "fields": {
+    "name_ru": "Республики Каракалпакстан",
+    "name_en": "Karakalpakstan",
+    "name_uz": "Коракалпогистон Республикаси",
+    "coefficient": "1.5817",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.region",
+  "pk": 2,
+  "fields": {
+    "name_ru": "Андижанской области",
+    "name_en": "Andijan",
+    "name_uz": "Андижон вилояти",
+    "coefficient": "1.3849",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.region",
+  "pk": 3,
+  "fields": {
+    "name_ru": "Бухарской области",
+    "name_en": "Bukhara",
+    "name_uz": "Бухоро вилояти",
+    "coefficient": "1.4499",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.region",
+  "pk": 4,
+  "fields": {
+    "name_ru": "Джизакской области",
+    "name_en": "Jizzakh",
+    "name_uz": "Жиззах вилояти",
+    "coefficient": "1.4188",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.region",
+  "pk": 5,
+  "fields": {
+    "name_ru": "Кашкадарьинской области",
+    "name_en": "Qashqadaryo",
+    "name_uz": "Кашкадарё вилояти",
+    "coefficient": "1.3769",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.region",
+  "pk": 6,
+  "fields": {
+    "name_ru": "Навоийской области",
+    "name_en": "Navoiy",
+    "name_uz": "Навоий вилояти",
+    "coefficient": "1.4819",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.region",
+  "pk": 7,
+  "fields": {
+    "name_ru": "Наманганской области",
+    "name_en": "Namangan",
+    "name_uz": "Наманган вилояти",
+    "coefficient": "1.2820",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.region",
+  "pk": 8,
+  "fields": {
+    "name_ru": "Самаркандской области",
+    "name_en": "Samarqand",
+    "name_uz": "Самарканд вилояти",
+    "coefficient": "1.3008",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.region",
+  "pk": 9,
+  "fields": {
+    "name_ru": "Сурхандарьинской области",
+    "name_en": "Surxondaryo",
+    "name_uz": "Сурхондарё вилояти",
+    "coefficient": "1.2739",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.region",
+  "pk": 10,
+  "fields": {
+    "name_ru": "Сырдарьинской области",
+    "name_en": "Sirdaryo",
+    "name_uz": "Сирдарё вилояти",
+    "coefficient": "1.4097",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.region",
+  "pk": 11,
+  "fields": {
+    "name_ru": "Ташкентской области",
+    "name_en": "Tashkent Region",
+    "name_uz": "Тошкент вилояти",
+    "coefficient": "1.2786",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.region",
+  "pk": 12,
+  "fields": {
+    "name_ru": "Ферганской области",
+    "name_en": "Fergana",
+    "name_uz": "Фаргона вилояти",
+    "coefficient": "1.3958",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.region",
+  "pk": 13,
+  "fields": {
+    "name_ru": "Хорезмской области",
+    "name_en": "Xorazm",
+    "name_uz": "Хоразм вилояти",
+    "coefficient": "1.3608",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.region",
+  "pk": 14,
+  "fields": {
+    "name_ru": "г.Ташкент",
+    "name_en": "Tashkent City",
+    "name_uz": "Тошкент шахар",
+    "coefficient": "1.2786",
+    "limit": null
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 1,
+  "fields": {
+    "region": 1,
+    "name_ru": "Амударьинский",
+    "name_en": "Amudarya",
+    "name_local": "Амударё",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.515Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 2,
+  "fields": {
+    "region": 1,
+    "name_ru": "Берунийский",
+    "name_en": "Beryuniy",
+    "name_local": "Беруний",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.236Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 3,
+  "fields": {
+    "region": 1,
+    "name_ru": "Караузякский",
+    "name_en": "Karauzyak",
+    "name_local": "Караузак",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.763Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 4,
+  "fields": {
+    "region": 1,
+    "name_ru": "Кегейлийский",
+    "name_en": "Kegail",
+    "name_local": "Кегейли",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.759Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 5,
+  "fields": {
+    "region": 1,
+    "name_ru": "Кунградский",
+    "name_en": "Kungrad",
+    "name_local": "Кунград",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.755Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 6,
+  "fields": {
+    "region": 1,
+    "name_ru": "Канлыкульский",
+    "name_en": "Kanlykul",
+    "name_local": "Канликўл",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.751Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 7,
+  "fields": {
+    "region": 1,
+    "name_ru": "Муйнакский",
+    "name_en": "Muynak",
+    "name_local": "Мўйнақ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.747Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 8,
+  "fields": {
+    "region": 1,
+    "name_ru": "Нукусский",
+    "name_en": "Nukus",
+    "name_local": "Нукус",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.743Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 9,
+  "fields": {
+    "region": 1,
+    "name_ru": "Тахтакупырский",
+    "name_en": "Takhtakupyr",
+    "name_local": "Тахтакўпир",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.738Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 10,
+  "fields": {
+    "region": 1,
+    "name_ru": "Турткульский",
+    "name_en": "Turtkul",
+    "name_local": "Тўрткўл",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.733Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 11,
+  "fields": {
+    "region": 1,
+    "name_ru": "Ходжейлийский",
+    "name_en": "Khojeyliy",
+    "name_local": "Ходжейли",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.729Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 12,
+  "fields": {
+    "region": 1,
+    "name_ru": "Чимбайский",
+    "name_en": "Chimbay",
+    "name_local": "Чимбой",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.726Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 13,
+  "fields": {
+    "region": 1,
+    "name_ru": "Шуманайский",
+    "name_en": "Shumanai",
+    "name_local": "Шуманай",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.722Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 14,
+  "fields": {
+    "region": 1,
+    "name_ru": "Элликкалинский",
+    "name_en": "Elliccalin",
+    "name_local": "Элликкалин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.718Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 15,
+  "fields": {
+    "region": 1,
+    "name_ru": "г. Нукус",
+    "name_en": "Nukus city",
+    "name_local": "Нукус шахар",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.714Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 16,
+  "fields": {
+    "region": 2,
+    "name_ru": "Алтынкульский",
+    "name_en": "Altinkul",
+    "name_local": "Олтинкўл",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.689Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 17,
+  "fields": {
+    "region": 2,
+    "name_ru": "Андижанский",
+    "name_en": "Andijan",
+    "name_local": "Андижон",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.711Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 18,
+  "fields": {
+    "region": 2,
+    "name_ru": "Асакинский",
+    "name_en": "Asaka",
+    "name_local": "Асақа",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.706Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 19,
+  "fields": {
+    "region": 2,
+    "name_ru": "Балыкчинский",
+    "name_en": "Balykchin",
+    "name_local": "Балиқчи",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.702Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 20,
+  "fields": {
+    "region": 2,
+    "name_ru": "Бозский",
+    "name_en": "Boz",
+    "name_local": "Бозс",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.698Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 21,
+  "fields": {
+    "region": 2,
+    "name_ru": "Булакбашинский",
+    "name_en": "Bulakbashin",
+    "name_local": "Булоқбашин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.693Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 22,
+  "fields": {
+    "region": 2,
+    "name_ru": "Джалакудукский",
+    "name_en": "Jalakuduk",
+    "name_local": "Жалақудуқ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.685Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 23,
+  "fields": {
+    "region": 2,
+    "name_ru": "Избасканский",
+    "name_en": "Izbaskan",
+    "name_local": "Избосган",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.681Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 24,
+  "fields": {
+    "region": 2,
+    "name_ru": "Кургантепинский",
+    "name_en": "Kurgantepin",
+    "name_local": "Кургантепин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.677Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 25,
+  "fields": {
+    "region": 2,
+    "name_ru": "Мархаматский",
+    "name_en": "Marhamat",
+    "name_local": "Мархамат",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.672Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 26,
+  "fields": {
+    "region": 2,
+    "name_ru": "Пахтаабадский",
+    "name_en": "Pakhtaabad",
+    "name_local": "Пахтаобод",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.668Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 27,
+  "fields": {
+    "region": 2,
+    "name_ru": "Улугнорский",
+    "name_en": "Ulugnor",
+    "name_local": "Улуғнор",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.664Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 28,
+  "fields": {
+    "region": 2,
+    "name_ru": "Ходжаабадский",
+    "name_en": "Khojaabad",
+    "name_local": "Ходжаобод",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.660Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 29,
+  "fields": {
+    "region": 2,
+    "name_ru": "Шахриханский",
+    "name_en": "Shahrikhan",
+    "name_local": "Шахрихон",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.656Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 30,
+  "fields": {
+    "region": 3,
+    "name_ru": "Алатский",
+    "name_en": "Alat",
+    "name_local": "Олот",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.652Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 31,
+  "fields": {
+    "region": 3,
+    "name_ru": "Бухарский",
+    "name_en": "Bukhara",
+    "name_local": "Бухоро",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.647Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 32,
+  "fields": {
+    "region": 3,
+    "name_ru": "Вабкентский",
+    "name_en": "Babkent",
+    "name_local": "Вабкент",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.642Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 33,
+  "fields": {
+    "region": 3,
+    "name_ru": "Гиждуванский",
+    "name_en": "Gijduvan",
+    "name_local": "Ғиждувон",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.637Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 34,
+  "fields": {
+    "region": 3,
+    "name_ru": "Жондорский",
+    "name_en": "Jondor",
+    "name_local": "Жондор",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.633Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 35,
+  "fields": {
+    "region": 3,
+    "name_ru": "Каганский",
+    "name_en": "Kagan",
+    "name_local": "Когон",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.628Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 36,
+  "fields": {
+    "region": 3,
+    "name_ru": "Каракульский",
+    "name_en": "Karakul",
+    "name_local": "Қорақул",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.624Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 37,
+  "fields": {
+    "region": 3,
+    "name_ru": "Караулбазарский",
+    "name_en": "Karaulbazar",
+    "name_local": "Қороулбозор",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.620Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 38,
+  "fields": {
+    "region": 3,
+    "name_ru": "Пешкунский",
+    "name_en": "Peshkun",
+    "name_local": "Пешкун",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.616Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 39,
+  "fields": {
+    "region": 3,
+    "name_ru": "Ромитанский",
+    "name_en": "Romitan",
+    "name_local": "Ромитан",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.612Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 40,
+  "fields": {
+    "region": 3,
+    "name_ru": "Шафирканский",
+    "name_en": "Shafirkan",
+    "name_local": "Шафирқон",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.607Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 41,
+  "fields": {
+    "region": 4,
+    "name_ru": "Арнасайский",
+    "name_en": "Arnasay",
+    "name_local": "Арнасай",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.603Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 42,
+  "fields": {
+    "region": 4,
+    "name_ru": "Бахмальский",
+    "name_en": "Bahmal",
+    "name_local": "Бахмал",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.599Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 43,
+  "fields": {
+    "region": 4,
+    "name_ru": "Галляаральский",
+    "name_en": "Gallaaral",
+    "name_local": "Ғаллаорол",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.595Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 44,
+  "fields": {
+    "region": 4,
+    "name_ru": "Джизакский",
+    "name_en": "Jizzakh",
+    "name_local": "Жиззах",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.590Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 45,
+  "fields": {
+    "region": 4,
+    "name_ru": "Дустликский",
+    "name_en": "Dustlik",
+    "name_local": "Дўстлик",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.586Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 46,
+  "fields": {
+    "region": 4,
+    "name_ru": "Зааминский",
+    "name_en": "Zomin",
+    "name_local": "Зомин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.581Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 47,
+  "fields": {
+    "region": 4,
+    "name_ru": "Зарбдарский",
+    "name_en": "Zarbdar",
+    "name_local": "Зарбдор",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.577Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 48,
+  "fields": {
+    "region": 4,
+    "name_ru": "Зафарабадский",
+    "name_en": "Zafarabad",
+    "name_local": "Зафаробод",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.573Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 49,
+  "fields": {
+    "region": 4,
+    "name_ru": "Мирзачульский",
+    "name_en": "Mirzachul",
+    "name_local": "Мирзачўл",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.569Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 50,
+  "fields": {
+    "region": 4,
+    "name_ru": "Пахтакорский",
+    "name_en": "Pakhtakor",
+    "name_local": "Пахтакор",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.565Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 51,
+  "fields": {
+    "region": 4,
+    "name_ru": "Фаришский",
+    "name_en": "Farish",
+    "name_local": "Фариш",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.561Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 52,
+  "fields": {
+    "region": 4,
+    "name_ru": "Янгиабадский",
+    "name_en": "Yangiabad",
+    "name_local": "Янгиобод",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.557Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 53,
+  "fields": {
+    "region": 5,
+    "name_ru": "Гузарский район",
+    "name_en": "Guzar district",
+    "name_local": "Гузар тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.553Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 54,
+  "fields": {
+    "region": 5,
+    "name_ru": "Дехканабадский район",
+    "name_en": "Dekhkanabad district",
+    "name_local": "Дехқонобод тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.549Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 55,
+  "fields": {
+    "region": 5,
+    "name_ru": "Камашинский район",
+    "name_en": "Kamashin district",
+    "name_local": "Қамашин тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.545Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 56,
+  "fields": {
+    "region": 5,
+    "name_ru": "Каршинский район",
+    "name_en": "Karshi district",
+    "name_local": "Қарши тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.541Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 57,
+  "fields": {
+    "region": 5,
+    "name_ru": "Касанский район",
+    "name_en": "Kasan district",
+    "name_local": "Қасан тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.536Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 58,
+  "fields": {
+    "region": 5,
+    "name_ru": "Касбийский район",
+    "name_en": "Kasby district",
+    "name_local": "Касби тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.532Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 59,
+  "fields": {
+    "region": 5,
+    "name_ru": "Китабский район",
+    "name_en": "Kitab District",
+    "name_local": "Китоб тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.527Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 60,
+  "fields": {
+    "region": 5,
+    "name_ru": "Миришкорский район",
+    "name_en": "Mirishkorsky district",
+    "name_local": "Миришкор тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.018Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 61,
+  "fields": {
+    "region": 5,
+    "name_ru": "Мубарекский район",
+    "name_en": "Mubarek district",
+    "name_local": "Муборак тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.014Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 62,
+  "fields": {
+    "region": 5,
+    "name_ru": "Нишанский район",
+    "name_en": "Nishan district",
+    "name_local": "Нишон тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.010Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 63,
+  "fields": {
+    "region": 5,
+    "name_ru": "Чиракчинский район",
+    "name_en": "Chirakchi district",
+    "name_local": "Чироқчи тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.006Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 64,
+  "fields": {
+    "region": 5,
+    "name_ru": "Шахрисабзский район",
+    "name_en": "Shakhrisabz district",
+    "name_local": "Шахрисабз тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.002Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 65,
+  "fields": {
+    "region": 5,
+    "name_ru": "Яккабагский район",
+    "name_en": "Yakkabag district",
+    "name_local": "Яккабоғ тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.998Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 66,
+  "fields": {
+    "region": 6,
+    "name_ru": "Канимехский",
+    "name_en": "Kanimeh",
+    "name_local": "Қанимех",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.994Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 67,
+  "fields": {
+    "region": 6,
+    "name_ru": "Кызылтепинский",
+    "name_en": "Kyzyltepa",
+    "name_local": "Қизилтепа",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.990Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 68,
+  "fields": {
+    "region": 6,
+    "name_ru": "Навбахорский",
+    "name_en": "Navbahor",
+    "name_local": "Навбахор",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.986Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 69,
+  "fields": {
+    "region": 6,
+    "name_ru": "Карманинский",
+    "name_en": "Karmanin",
+    "name_local": "Карманин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.982Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 70,
+  "fields": {
+    "region": 6,
+    "name_ru": "Нуратинский",
+    "name_en": "Nurata",
+    "name_local": "Нурота",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.978Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 71,
+  "fields": {
+    "region": 6,
+    "name_ru": "Тамдынский",
+    "name_en": "Tamdyn",
+    "name_local": "Тамдин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.974Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 72,
+  "fields": {
+    "region": 6,
+    "name_ru": "Учкудукский",
+    "name_en": "Uchkudu",
+    "name_local": "Учқуду",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.960Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 73,
+  "fields": {
+    "region": 6,
+    "name_ru": "Хатырчинский",
+    "name_en": "Khatyrchi",
+    "name_local": "Хатирчи",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.969Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 74,
+  "fields": {
+    "region": 7,
+    "name_ru": "Касансайский",
+    "name_en": "Kasansai",
+    "name_local": "Қосансой",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.965Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 75,
+  "fields": {
+    "region": 7,
+    "name_ru": "Мингбулакский",
+    "name_en": "Mingbulak",
+    "name_local": "Мингбулок",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.956Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 76,
+  "fields": {
+    "region": 7,
+    "name_ru": "Наманганский",
+    "name_en": "Namangan region",
+    "name_local": "Наманган тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.486Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 77,
+  "fields": {
+    "region": 7,
+    "name_ru": "Нарынский",
+    "name_en": "Naryn",
+    "name_local": "Нарин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.952Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 78,
+  "fields": {
+    "region": 7,
+    "name_ru": "Папский",
+    "name_en": "Pop",
+    "name_local": "Поп",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.948Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 79,
+  "fields": {
+    "region": 7,
+    "name_ru": "Туракурганский",
+    "name_en": "Turakurgan",
+    "name_local": "Тўракўрган",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.944Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 80,
+  "fields": {
+    "region": 7,
+    "name_ru": "Уйчинский",
+    "name_en": "Uychin",
+    "name_local": "Уйчин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.940Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 81,
+  "fields": {
+    "region": 7,
+    "name_ru": "Учкурганский",
+    "name_en": "Uchkurgan",
+    "name_local": "Учкўрган",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.936Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 82,
+  "fields": {
+    "region": 7,
+    "name_ru": "Чартакский",
+    "name_en": "Chartak",
+    "name_local": "Чортоқ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.932Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 83,
+  "fields": {
+    "region": 7,
+    "name_ru": "Чустский",
+    "name_en": "Chust",
+    "name_local": "Чуст",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.928Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 84,
+  "fields": {
+    "region": 7,
+    "name_ru": "Янгикурганский",
+    "name_en": "Yangikurgan",
+    "name_local": "Янгикўрган",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.923Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 85,
+  "fields": {
+    "region": 8,
+    "name_ru": "Акдарьинский",
+    "name_en": "Akdaryin",
+    "name_local": "Оқдарё",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.919Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 86,
+  "fields": {
+    "region": 8,
+    "name_ru": "Булунгурский",
+    "name_en": "Bulungur",
+    "name_local": "Булунғур",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.915Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 87,
+  "fields": {
+    "region": 8,
+    "name_ru": "Джамбайский",
+    "name_en": "Jamboy",
+    "name_local": "Жомбой",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.911Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 88,
+  "fields": {
+    "region": 8,
+    "name_ru": "Иштыханский",
+    "name_en": "Ishtykhan",
+    "name_local": "Иштихон",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.907Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 89,
+  "fields": {
+    "region": 8,
+    "name_ru": "Каттакурганский",
+    "name_en": "Kattakurgan",
+    "name_local": "Каттакўрғон",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.903Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 90,
+  "fields": {
+    "region": 8,
+    "name_ru": "Кошрабадский",
+    "name_en": "Koshrabad",
+    "name_local": "Кўшробод",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.899Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 91,
+  "fields": {
+    "region": 8,
+    "name_ru": "Нарпайский",
+    "name_en": "Narpay",
+    "name_local": "Нарпай",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.895Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 92,
+  "fields": {
+    "region": 8,
+    "name_ru": "Нурабадский",
+    "name_en": "Nurabad",
+    "name_local": "Нуробод",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.890Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 93,
+  "fields": {
+    "region": 8,
+    "name_ru": "Пайарыкский",
+    "name_en": "Payaryk",
+    "name_local": "Пойариқ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.886Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 94,
+  "fields": {
+    "region": 8,
+    "name_ru": "Пастдаргомский",
+    "name_en": "Pastdargom",
+    "name_local": "Пастдарғом",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.882Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 95,
+  "fields": {
+    "region": 8,
+    "name_ru": "Пахтачийский",
+    "name_en": "Pakhtachi",
+    "name_local": "Пахтачи",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.878Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 96,
+  "fields": {
+    "region": 8,
+    "name_ru": "Самаркандский",
+    "name_en": "Samarkand",
+    "name_local": "Самарқанд",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.873Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 97,
+  "fields": {
+    "region": 8,
+    "name_ru": "Тайлакский",
+    "name_en": "Taylak",
+    "name_local": "Тайлоқ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.869Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 98,
+  "fields": {
+    "region": 8,
+    "name_ru": "Ургутский",
+    "name_en": "Urgut",
+    "name_local": "Ургут",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.865Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 99,
+  "fields": {
+    "region": 9,
+    "name_ru": "Алтынсайский",
+    "name_en": "Altynsay",
+    "name_local": "Олтинсой",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.861Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 100,
+  "fields": {
+    "region": 9,
+    "name_ru": "Ангорский",
+    "name_en": "Angor",
+    "name_local": "Ангор",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.857Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 101,
+  "fields": {
+    "region": 9,
+    "name_ru": "Байсунский",
+    "name_en": "Baysun",
+    "name_local": "Бўйсун",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.853Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 102,
+  "fields": {
+    "region": 9,
+    "name_ru": "Денауский",
+    "name_en": "Denau",
+    "name_local": "Денов",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.850Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 103,
+  "fields": {
+    "region": 9,
+    "name_ru": "Джаркурганский",
+    "name_en": "Jarkurgan",
+    "name_local": "Жаркўрган",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.846Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 104,
+  "fields": {
+    "region": 9,
+    "name_ru": "Кизирикский",
+    "name_en": "Kizirik",
+    "name_local": "Қизириқ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.841Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 105,
+  "fields": {
+    "region": 9,
+    "name_ru": "Кумкурганский",
+    "name_en": "Kumkurgan",
+    "name_local": "Қумкўрган",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.802Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 106,
+  "fields": {
+    "region": 9,
+    "name_ru": "Музрабадский",
+    "name_en": "Muzrabad",
+    "name_local": "Музрабад",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.836Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 107,
+  "fields": {
+    "region": 9,
+    "name_ru": "Сариасийский",
+    "name_en": "Sariasius",
+    "name_local": "Сариосий",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.832Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 108,
+  "fields": {
+    "region": 9,
+    "name_ru": "Термезский",
+    "name_en": "Termez",
+    "name_local": "Термиз",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.827Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 109,
+  "fields": {
+    "region": 9,
+    "name_ru": "Узунский",
+    "name_en": "Uzun",
+    "name_local": "Узун",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.824Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 110,
+  "fields": {
+    "region": 9,
+    "name_ru": "Шерабадский",
+    "name_en": "Sherabad",
+    "name_local": "Шеробод",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.820Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 111,
+  "fields": {
+    "region": 9,
+    "name_ru": "Шурчинский",
+    "name_en": "Shurchi",
+    "name_local": "Шўрчи",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.815Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 112,
+  "fields": {
+    "region": 10,
+    "name_ru": "Акалтынский",
+    "name_en": "Akaltyn",
+    "name_local": "Оқолтин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.811Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 113,
+  "fields": {
+    "region": 10,
+    "name_ru": "Баяутский",
+    "name_en": "Баяутский",
+    "name_local": "Баяут",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.806Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 114,
+  "fields": {
+    "region": 10,
+    "name_ru": "Гулистанский",
+    "name_en": "Gulistan",
+    "name_local": "Гулистон",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.798Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 115,
+  "fields": {
+    "region": 10,
+    "name_ru": "Мирзаабадский",
+    "name_en": "Mirzaabad",
+    "name_local": "Мирзаобод",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.794Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 116,
+  "fields": {
+    "region": 10,
+    "name_ru": "Сайхунабадский",
+    "name_en": "Saikhunabad",
+    "name_local": "Сайхунобод",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.789Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 117,
+  "fields": {
+    "region": 10,
+    "name_ru": "Сардобский",
+    "name_en": "Сардобский",
+    "name_local": "Сардоб",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.784Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 118,
+  "fields": {
+    "region": 10,
+    "name_ru": "Сырдарьинский",
+    "name_en": "Syrdarya",
+    "name_local": "Сирдарё",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.781Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 119,
+  "fields": {
+    "region": 10,
+    "name_ru": "Хавастский",
+    "name_en": "Хавастский",
+    "name_local": "Хавас",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.777Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 120,
+  "fields": {
+    "region": 11,
+    "name_ru": "Аккурганский",
+    "name_en": "Akkurgan",
+    "name_local": "Оққўрғон",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.232Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 121,
+  "fields": {
+    "region": 11,
+    "name_ru": "Ахангаранский",
+    "name_en": "Ahangaran",
+    "name_local": "Охангарон",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.254Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 122,
+  "fields": {
+    "region": 11,
+    "name_ru": "Бекабадский",
+    "name_en": "Bekabad",
+    "name_local": "Бекобод",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.228Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 123,
+  "fields": {
+    "region": 11,
+    "name_ru": "Бостанлыкский",
+    "name_en": "Bostanlik",
+    "name_local": "Бостонлиқ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.223Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 124,
+  "fields": {
+    "region": 11,
+    "name_ru": "Букинский",
+    "name_en": "Бўка",
+    "name_local": "Бўка",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.250Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 125,
+  "fields": {
+    "region": 11,
+    "name_ru": "Кибрайский",
+    "name_en": "Kibray",
+    "name_local": "Қибрай",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.219Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 126,
+  "fields": {
+    "region": 11,
+    "name_ru": "Куйичирчикский",
+    "name_en": "Kuyichirchik",
+    "name_local": "Қўйичирчиқ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.215Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 127,
+  "fields": {
+    "region": 11,
+    "name_ru": "Паркентский",
+    "name_en": "Parkent",
+    "name_local": "Паркент",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.211Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 128,
+  "fields": {
+    "region": 11,
+    "name_ru": "Пскентский",
+    "name_en": "Pskent",
+    "name_local": "Пскент",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.207Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 129,
+  "fields": {
+    "region": 11,
+    "name_ru": "Зангиатинский",
+    "name_en": "Zangiata",
+    "name_local": "Зангиота",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.203Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 130,
+  "fields": {
+    "region": 11,
+    "name_ru": "Уртачирчикский",
+    "name_en": "Urtachirchik",
+    "name_local": "Ўртачирчиқ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.199Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 131,
+  "fields": {
+    "region": 11,
+    "name_ru": "Чиназский",
+    "name_en": "Chinaz",
+    "name_local": "Чиназ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.195Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 132,
+  "fields": {
+    "region": 11,
+    "name_ru": "Юкоричирчикский",
+    "name_en": "Yukorichirchik",
+    "name_local": "Юқоричирчиқ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.190Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 133,
+  "fields": {
+    "region": 11,
+    "name_ru": "Янгиюльский",
+    "name_en": "Yangiyul",
+    "name_local": "Янгиюл",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.186Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 134,
+  "fields": {
+    "region": 12,
+    "name_ru": "Алтыарыкский",
+    "name_en": "Altiar",
+    "name_local": "Алтиар",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.182Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 135,
+  "fields": {
+    "region": 12,
+    "name_ru": "Багдадский",
+    "name_en": "Baghdad",
+    "name_local": "Боғдод",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.177Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 136,
+  "fields": {
+    "region": 12,
+    "name_ru": "Бешарыкский",
+    "name_en": "Besharyk",
+    "name_local": "Бешариқ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.173Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 137,
+  "fields": {
+    "region": 12,
+    "name_ru": "Бувайдинский",
+    "name_en": "Buvaidin",
+    "name_local": "Бувайдин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.168Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 138,
+  "fields": {
+    "region": 12,
+    "name_ru": "Дангаринский",
+    "name_en": "Dangarin",
+    "name_local": "Дангарин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.165Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 139,
+  "fields": {
+    "region": 12,
+    "name_ru": "Кувинский",
+    "name_en": "Kuvin",
+    "name_local": "Қувин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.160Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 140,
+  "fields": {
+    "region": 12,
+    "name_ru": "Куштепинский",
+    "name_en": "Kushtepin",
+    "name_local": "Қўштепин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.156Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 141,
+  "fields": {
+    "region": 12,
+    "name_ru": "Риштанский",
+    "name_en": "Rishtan",
+    "name_local": "Риштон",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.152Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 142,
+  "fields": {
+    "region": 12,
+    "name_ru": "Сохский",
+    "name_en": "Sokhsky",
+    "name_local": "Сўх",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.147Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 143,
+  "fields": {
+    "region": 12,
+    "name_ru": "Ташлакский",
+    "name_en": "Tashlak",
+    "name_local": "Тошлоқ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.143Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 144,
+  "fields": {
+    "region": 12,
+    "name_ru": "Узбекистанский",
+    "name_en": "Uzbekistan",
+    "name_local": "Ўзбекистон",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.138Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 145,
+  "fields": {
+    "region": 12,
+    "name_ru": "Учкуприкский",
+    "name_en": "Uchkuprik",
+    "name_local": "Учкўприк",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.134Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 146,
+  "fields": {
+    "region": 12,
+    "name_ru": "Ферганский",
+    "name_en": "Ferghana",
+    "name_local": "Фарғона",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.129Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 147,
+  "fields": {
+    "region": 12,
+    "name_ru": "Фуркатский",
+    "name_en": "Furkat",
+    "name_local": "Фурқат",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.125Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 148,
+  "fields": {
+    "region": 12,
+    "name_ru": "Язъяванский",
+    "name_en": "Yazyavansky",
+    "name_local": "Язъяван",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.121Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 149,
+  "fields": {
+    "region": 13,
+    "name_ru": "г.Ургенч",
+    "name_en": "Urgench city",
+    "name_local": "Урганч шахар",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.118Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 150,
+  "fields": {
+    "region": 13,
+    "name_ru": "Багатский",
+    "name_en": "Bagatsky",
+    "name_local": "Багат",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.114Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 151,
+  "fields": {
+    "region": 13,
+    "name_ru": "Гурленский",
+    "name_en": "Gurlensky",
+    "name_local": "Гурлен",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.109Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 152,
+  "fields": {
+    "region": 13,
+    "name_ru": "Кошкупырский",
+    "name_en": "Koshkupyrsky",
+    "name_local": "Кошкупир",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.104Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 153,
+  "fields": {
+    "region": 13,
+    "name_ru": "Ургенчский",
+    "name_en": "Urgench",
+    "name_local": "Урганч",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.099Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 154,
+  "fields": {
+    "region": 13,
+    "name_ru": "Хазараспский",
+    "name_en": "Khazaraspian",
+    "name_local": "Хазарасп",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.096Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 155,
+  "fields": {
+    "region": 13,
+    "name_ru": "Ханкинский",
+    "name_en": "Hankinsky",
+    "name_local": "Ханкин",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.092Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 156,
+  "fields": {
+    "region": 13,
+    "name_ru": "Хивинский",
+    "name_en": "Khiva",
+    "name_local": "Хива",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.088Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 157,
+  "fields": {
+    "region": 13,
+    "name_ru": "Шаватский",
+    "name_en": "Shavatsky",
+    "name_local": "Шавват",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.084Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 158,
+  "fields": {
+    "region": 13,
+    "name_ru": "Янгибазарский",
+    "name_en": "Yangibazar",
+    "name_local": "Янгибозор",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.080Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 159,
+  "fields": {
+    "region": 13,
+    "name_ru": "Янгиарыкский",
+    "name_en": "Yangiarik",
+    "name_local": "Янгиариқ",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.076Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 160,
+  "fields": {
+    "region": 14,
+    "name_ru": "Алмазарский район",
+    "name_en": "Almazar district",
+    "name_local": "Олмазор тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.072Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 161,
+  "fields": {
+    "region": 14,
+    "name_ru": "Бектемирский район",
+    "name_en": "Bektemirsky district",
+    "name_local": "Бектемир тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.068Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 162,
+  "fields": {
+    "region": 14,
+    "name_ru": "Мирабадский район",
+    "name_en": "Mirabad district",
+    "name_local": "Миробод тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.063Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 163,
+  "fields": {
+    "region": 14,
+    "name_ru": "Мирзо-Улугбекский район",
+    "name_en": "Mirzo-Ulugbek district",
+    "name_local": "Мирзо-Улуғбек тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.059Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 164,
+  "fields": {
+    "region": 14,
+    "name_ru": "Сергелийский район",
+    "name_en": "Sergeli district",
+    "name_local": "Сергели тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.054Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 165,
+  "fields": {
+    "region": 14,
+    "name_ru": "Учтепинский район",
+    "name_en": "Uchtepa district",
+    "name_local": "Учтепа тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.050Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 166,
+  "fields": {
+    "region": 14,
+    "name_ru": "Чиланзарский район",
+    "name_en": "Chilanzar district",
+    "name_local": "Чилонзор тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.046Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 167,
+  "fields": {
+    "region": 14,
+    "name_ru": "Шайхантахурский район",
+    "name_en": "Shaykhantahur district",
+    "name_local": "Шайхонтохур тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.042Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 168,
+  "fields": {
+    "region": 14,
+    "name_ru": "Юнусабадский район",
+    "name_en": "Yunusabad district",
+    "name_local": "Юнусобод тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.038Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 169,
+  "fields": {
+    "region": 14,
+    "name_ru": "Яккасарайский район",
+    "name_en": "Yakkasaray district",
+    "name_local": "Яккасарой тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.034Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 170,
+  "fields": {
+    "region": 14,
+    "name_ru": "Яшнабадский район",
+    "name_en": "Yashnabad district",
+    "name_local": "Яшнобод тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.030Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 171,
+  "fields": {
+    "region": 1,
+    "name_ru": "Тахиаташский район",
+    "name_en": "Takhiatash district",
+    "name_local": "Тахиатош тумани",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.772Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 172,
+  "fields": {
+    "region": 4,
+    "name_ru": "Шароф Рашидов",
+    "name_en": "Sharof Rashidov",
+    "name_local": "Шароф Рашидов",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.022Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 173,
+  "fields": {
+    "region": 6,
+    "name_ru": "Навоий шахар",
+    "name_en": "Navoi shahar",
+    "name_local": "Навоий шахар",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.026Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 174,
+  "fields": {
+    "region": 6,
+    "name_ru": "Зарафшон шахар",
+    "name_en": "Zarafshon shahar",
+    "name_local": "Зарафшон шахар",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.768Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 175,
+  "fields": {
+    "region": 11,
+    "name_ru": "Ташкент",
+    "name_en": "Toshkent",
+    "name_local": "Тошкент",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.241Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 176,
+  "fields": {
+    "region": 11,
+    "name_ru": "Ангрен",
+    "name_en": "Angren",
+    "name_local": "Ангрен",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.245Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 200,
+  "fields": {
+    "region": 12,
+    "name_ru": "Quvasoy Shahri",
+    "name_en": "Quvasoy Shahri",
+    "name_local": "Quvasoy Shahri",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.448Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 201,
+  "fields": {
+    "region": 12,
+    "name_ru": "Qoqon Shahri",
+    "name_en": "Qoqon Shahri",
+    "name_local": "Qoqon Shahri",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.456Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 202,
+  "fields": {
+    "region": 12,
+    "name_ru": "Farg'ona Shahri",
+    "name_en": "Farg'ona Shahri",
+    "name_local": "Farg'ona Shahri",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.462Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 203,
+  "fields": {
+    "region": 3,
+    "name_ru": "Buxoro Shahri",
+    "name_en": "Buxoro Shahri",
+    "name_local": "Buxoro Shahri",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.467Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 204,
+  "fields": {
+    "region": 5,
+    "name_ru": "город Карши",
+    "name_en": "Karshi city",
+    "name_local": "Қарши шахри",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.472Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 205,
+  "fields": {
+    "region": 8,
+    "name_ru": "Город Каттакурган",
+    "name_en": "Kattaqo'rg'on shahar",
+    "name_local": "Каттақўрғон шаҳар",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.476Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 206,
+  "fields": {
+    "region": 8,
+    "name_ru": "Город Самарканд",
+    "name_en": "Samarqand shahri",
+    "name_local": "Самарқанд шаҳри",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.481Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 207,
+  "fields": {
+    "region": 7,
+    "name_ru": "г.Наманган",
+    "name_en": "Namangan city",
+    "name_local": "Наманган шаҳри",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.490Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 208,
+  "fields": {
+    "region": 10,
+    "name_ru": "г.Гулистан",
+    "name_en": "Guliston city",
+    "name_local": "Гулистон шаҳар",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.494Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 209,
+  "fields": {
+    "region": 9,
+    "name_ru": "Бандиханский",
+    "name_en": "Bandikhan",
+    "name_local": "Бандихон",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.499Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 210,
+  "fields": {
+    "region": 11,
+    "name_ru": "Чирчикский",
+    "name_en": "Чирчиқ шаҳри",
+    "name_local": "Чирчиқ шаҳри",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.503Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 211,
+  "fields": {
+    "region": 13,
+    "name_ru": "Тупроққалъа",
+    "name_en": "Tuproqqala",
+    "name_local": "Тупроққалъа",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.507Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 212,
+  "fields": {
+    "region": 13,
+    "name_ru": "Хива шаҳри",
+    "name_en": "Khiva city",
+    "name_local": "Хива шаҳри",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.511Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 213,
+  "fields": {
+    "region": 14,
+    "name_ru": "Янгихайотский",
+    "name_en": "Yangihayot",
+    "name_local": "Янгиҳаёт",
+    "code": null,
+    "added_at": "2022-05-17T07:14:42.521Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 214,
+  "fields": {
+    "region": 1,
+    "name_ru": "Бозатовский",
+    "name_en": "Bozatov",
+    "name_local": "Bo'zatov",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.258Z"
+  }
+},
+{
+  "model": "contract_app.district",
+  "pk": 215,
+  "fields": {
+    "region": 12,
+    "name_ru": "Маргилан",
+    "name_en": "Margilan",
+    "name_local": "Марғилон шаҳри",
+    "code": null,
+    "added_at": "2022-05-17T07:14:43.262Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 2,
+  "fields": {
+    "type": "Tuproq agrokimyo taxlil ishlari,agrokimyoviy xaritnomalarni tuzish va minral o'gitlarga bo'lgan ilmiy talab to'g'risida xulosa va tafsiyalar ishlab chiqish",
+    "value": 0.0,
+    "is_agriculture": true,
+    "added_at": "2022-05-17T09:09:20.349Z",
+    "updated_at": "2022-05-17T09:09:20.349Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 3,
+  "fields": {
+    "type": "Fosfor miqdorni aniqlash(Machigin uslubi bo'yicha)",
+    "value": 23250.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:13:44.222Z",
+    "updated_at": "2022-05-17T09:13:44.222Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 4,
+  "fields": {
+    "type": "Kaliy miqdorni aniqlash(Machigin uslubi bo'yicha)",
+    "value": 16300.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:14:10.460Z",
+    "updated_at": "2022-05-17T09:14:10.460Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 5,
+  "fields": {
+    "type": "Gumusni  anqilash(Tyorin uslubi bo'yicha)",
+    "value": 19000.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:15:27.839Z",
+    "updated_at": "2022-05-17T09:15:27.839Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 6,
+  "fields": {
+    "type": "Suvli PN",
+    "value": 14100.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:15:58.857Z",
+    "updated_at": "2022-05-17T09:15:58.857Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 7,
+  "fields": {
+    "type": "Namlik darajasi",
+    "value": 25000.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:16:43.083Z",
+    "updated_at": "2022-05-17T09:16:43.083Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 8,
+  "fields": {
+    "type": "Suvli so'rimida kation-anionli tarkibi",
+    "value": 100000.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:18:22.787Z",
+    "updated_at": "2022-05-17T09:18:22.787Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 9,
+  "fields": {
+    "type": "Azot nitrat shakli",
+    "value": 20400.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:18:54.287Z",
+    "updated_at": "2022-05-17T09:18:54.287Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 10,
+  "fields": {
+    "type": "Azot nitrat shakli va namlik",
+    "value": 38600.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:19:20.340Z",
+    "updated_at": "2022-05-17T09:19:20.340Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 11,
+  "fields": {
+    "type": "Almashuvchan natriy",
+    "value": 26700.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:19:55.057Z",
+    "updated_at": "2022-05-17T09:19:55.057Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 12,
+  "fields": {
+    "type": "Almashuvchan oltingurgut",
+    "value": 19500.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:20:36.069Z",
+    "updated_at": "2022-05-17T09:20:36.069Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 13,
+  "fields": {
+    "type": "Almashuvchan kalsiy va magniy",
+    "value": 26400.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:21:17.653Z",
+    "updated_at": "2022-05-17T09:21:17.653Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 14,
+  "fields": {
+    "type": "Almashuvchan kalsiy",
+    "value": 25900.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:21:50.203Z",
+    "updated_at": "2022-05-17T09:21:50.203Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 15,
+  "fields": {
+    "type": "Almashuvchan magniy",
+    "value": 26400.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:22:44.629Z",
+    "updated_at": "2022-05-17T09:22:44.629Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 16,
+  "fields": {
+    "type": "Organik moddalar",
+    "value": 20300.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:23:03.582Z",
+    "updated_at": "2022-05-17T09:23:03.582Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 17,
+  "fields": {
+    "type": "Suvli so'rimdagi quruq(zich) qoldiq",
+    "value": 32000.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:23:48.319Z",
+    "updated_at": "2022-05-17T09:23:48.319Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 18,
+  "fields": {
+    "type": "Almashuvchan ammoniy(30g tuproq uchun)",
+    "value": 26300.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:24:40.518Z",
+    "updated_at": "2022-05-17T09:24:40.518Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 19,
+  "fields": {
+    "type": "Mis (med)",
+    "value": 29200.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:25:08.070Z",
+    "updated_at": "2022-05-17T09:25:08.070Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 20,
+  "fields": {
+    "type": "Rux (sinq)",
+    "value": 29200.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:25:47.720Z",
+    "updated_at": "2022-05-17T09:25:47.720Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 21,
+  "fields": {
+    "type": "Marganets",
+    "value": 29200.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:26:15.181Z",
+    "updated_at": "2022-05-17T09:26:15.181Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 22,
+  "fields": {
+    "type": "Bor",
+    "value": 27000.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:26:44.991Z",
+    "updated_at": "2022-05-17T09:26:44.991Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 23,
+  "fields": {
+    "type": "Molibden",
+    "value": 79100.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:27:05.694Z",
+    "updated_at": "2022-05-17T09:27:05.694Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 24,
+  "fields": {
+    "type": "Kobalt",
+    "value": 29200.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:27:31.692Z",
+    "updated_at": "2022-05-17T09:27:31.692Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 25,
+  "fields": {
+    "type": "DDT va uning metabolitlari",
+    "value": 146000.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:28:33.543Z",
+    "updated_at": "2022-05-17T09:28:33.543Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 26,
+  "fields": {
+    "type": "O'simliklardagi DDT,GXSG va geptaxlor",
+    "value": 176500.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:29:45.925Z",
+    "updated_at": "2022-05-17T09:29:45.925Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 27,
+  "fields": {
+    "type": "Sabzavot mahsulotlardagi DDT,GXSG va geptaxlor",
+    "value": 178500.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:31:28.827Z",
+    "updated_at": "2022-05-17T09:31:28.827Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 28,
+  "fields": {
+    "type": "Qorg'oshin (svines)",
+    "value": 29200.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:32:26.864Z",
+    "updated_at": "2022-05-17T09:32:26.864Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 29,
+  "fields": {
+    "type": "Kadmiy",
+    "value": 29200.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:32:41.988Z",
+    "updated_at": "2022-05-17T09:32:41.988Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 30,
+  "fields": {
+    "type": "Simob(rtut)",
+    "value": 51000.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:33:37.980Z",
+    "updated_at": "2022-05-17T09:33:37.980Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 31,
+  "fields": {
+    "type": "Mishyak",
+    "value": 113400.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:34:07.912Z",
+    "updated_at": "2022-05-17T09:34:07.912Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 32,
+  "fields": {
+    "type": "Murakkab o'g'itlarni kompleks taxlil qilish",
+    "value": 615100.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:34:53.484Z",
+    "updated_at": "2022-05-17T09:34:53.484Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 33,
+  "fields": {
+    "type": "Fosforli o'g'itlarni kompleks taxlil qilish",
+    "value": 436200.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:35:43.481Z",
+    "updated_at": "2022-05-17T09:35:43.481Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 34,
+  "fields": {
+    "type": "Azotli  o'g'itlarni kompleks taxlil qilish",
+    "value": 457300.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:36:52.769Z",
+    "updated_at": "2022-05-17T09:36:52.769Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 35,
+  "fields": {
+    "type": "Kaliyli o'g'itlarni kompleks taxlil qilish",
+    "value": 279000.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:37:44.501Z",
+    "updated_at": "2022-05-17T09:37:44.501Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 36,
+  "fields": {
+    "type": "Karbamid o'g'itlarni kompleks taxlil qilish",
+    "value": 400000.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:38:10.574Z",
+    "updated_at": "2022-05-17T09:38:10.574Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 37,
+  "fields": {
+    "type": "KAS o'g'itlarni kompleks taxlil qilish",
+    "value": 455000.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:38:41.142Z",
+    "updated_at": "2022-05-17T09:38:41.142Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 38,
+  "fields": {
+    "type": "Organik  o'g'itlarni kompleks taxlil qilish",
+    "value": 408700.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:39:20.173Z",
+    "updated_at": "2022-05-17T09:39:20.173Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 39,
+  "fields": {
+    "type": "Organik  o'g'itlarni kompleks taxlil qilish(biogumus)",
+    "value": 478000.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:40:05.086Z",
+    "updated_at": "2022-05-17T09:40:05.086Z"
+  }
+},
+{
+  "model": "contract_app.typeservice",
+  "pk": 40,
+  "fields": {
+    "type": "Fosfogipisning kompleks taxlili",
+    "value": 407000.0,
+    "is_agriculture": false,
+    "added_at": "2022-05-17T09:41:16.879Z",
+    "updated_at": "2022-05-17T09:41:16.879Z"
+  }
+},
+{
+  "model": "contract_app.twotypeservice",
+  "pk": 1,
+  "fields": {
+    "type": 2,
+    "value": 55240.0,
+    "added_at": "2022-05-17T09:11:11.083Z",
+    "updated_at": "2022-05-17T09:11:11.084Z"
+  }
+},
+{
+  "model": "contract_app.twotypeservice",
+  "pk": 2,
+  "fields": {
+    "type": 2,
+    "value": 47600.0,
+    "added_at": "2022-05-17T09:11:24.303Z",
+    "updated_at": "2022-05-17T09:11:24.303Z"
+  }
+},
+{
+  "model": "contract_app.twotypeservice",
+  "pk": 3,
+  "fields": {
+    "type": 2,
+    "value": 32800.0,
+    "added_at": "2022-05-17T09:11:43.858Z",
+    "updated_at": "2022-05-17T09:11:43.858Z"
+  }
+},
+{
+  "model": "contract_app.twotypeservice",
+  "pk": 4,
+  "fields": {
+    "type": 2,
+    "value": 25300.0,
+    "added_at": "2022-05-17T09:11:58.281Z",
+    "updated_at": "2022-05-17T09:11:58.281Z"
+  }
+},
+{
+  "model": "contract_app.twotypeservice",
+  "pk": 5,
+  "fields": {
+    "type": 2,
+    "value": 20450.0,
+    "added_at": "2022-05-17T09:12:09.193Z",
+    "updated_at": "2022-05-17T09:12:09.193Z"
+  }
+},
+{
+  "model": "contract_app.inspectiongeneral",
+  "pk": 1,
+  "fields": {
+    "name": "Muxitdinov V. N.",
+    "added_at": "2022-05-17T09:42:30.333Z",
+    "updated_at": "2022-05-17T09:42:30.333Z"
+  }
+},
+{
+  "model": "contract_app.ofertadetail",
+  "pk": 1,
+  "fields": {
+    "adress": "Tosh. vil. Qibray tum. Bobur ko'ch. 8-uy",
+    "x_r": "23402000300100001010",
+    "sh_x": "4001 1086 0272 4870 4210 8061 001",
+    "bank": "Toshkent shaxar Markaziybank",
+    "mfo": "00014",
+    "oked": "01619",
+    "inn": "201 578 120",
+    "phone_number": "1234567"
+  }
+}
+]

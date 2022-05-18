@@ -38,9 +38,9 @@ class Agrement(views.APIView):
             data = serializer.validated_data
             regionall = District.objects.filter(region__id=serializer.data.get('region'))
             # check cadastre number is not minuse number
-            if not str(serializer.data.get('cadastre_number')).isdigit():
-                return Response({"error": "can not enter minuse number  to cadastre number"},
-                                status=status.HTTP_400_BAD_REQUEST)
+            #if not str(serializer.data.get('cadastre_number')).isdigit():
+            #    return Response({"error": "can not enter minuse number  to cadastre number"},
+            #                    status=status.HTTP_400_BAD_REQUEST)
             # check applicant_tin is not minuse number
             if not serializer.data.get('applicant_tin').isdigit():
                 return Response({"error": "can not enter minuse number or letter to applicant_inn"},
@@ -151,7 +151,7 @@ class PdfVersionView(View):
             numer_or_hectare = 'Namuna'
             contract.square_of_services = int(contract.square_of_services)
         type2 = TwoTypeService.objects.all().first()
-        summa = contract.payment_amount
+        summa = contract.service_type.value
         if contract.service_type.id == type2.type.id:
             if contract.square_of_services <= 50:
                 summa = TwoTypeService.objects.get(id=1).value

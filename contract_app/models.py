@@ -96,7 +96,7 @@ class Oferta(models.Model):
     given_date = models.DateField(auto_now_add=True, verbose_name='Дата выдачи')
     service_type = models.ForeignKey(TypeService, on_delete=models.DO_NOTHING, related_name='service_type',
                                      verbose_name='Service Type', default=0)
-    cadastre_number = models.IntegerField()
+    cadastre_number = models.CharField(verbose_name='Кадастр', max_length=55)
     product_type = models.CharField(max_length=300, default='')
     square_of_services = models.FloatField(verbose_name='Количество', default=0)
     payment_amount = models.DecimalField(verbose_name='Сумма платежа', max_digits=15, decimal_places=2, blank=True)
