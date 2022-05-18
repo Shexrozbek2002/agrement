@@ -14,7 +14,18 @@ from pathlib import Path
 import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+if os.name == 'nt':
+    import platform
 
+    OSGeo4W = r"C:\OSGeo4W"
+
+    os.environ['OSGEO4W_ROOT'] = OSGeo4W
+    os.environ['GDAL_DATA'] = OSGeo4W + r"\share\gdal"
+    os.environ['PROJ_LIB'] = OSGeo4W + r"\share\proj"
+    os.environ['PATH'] = OSGeo4W + r"\bin;" + os.environ['PATH']
+    # os.environ['GDAL_DATA'] = "C:\Program Files\GDAL\gdal-data"
+    GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal304.dll'
+    GEOS_LIBRARY_PATH = r'C:\OSGeo4W\bin\geos_c.dll'
 SECRET_KEY = 'django-insecure-isnvl*f=dgr&fo!w4p96gqn#t*bg$ux5&y6da7_8tv=vu_y052'
 
 # SECURITY WARNING: don't run with debug turned on in production!

@@ -1,8 +1,9 @@
 from rest_framework import views, status
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.generics import get_object_or_404
 from .serializers import ConcludingContractSerializer, AllContractserializer, \
-    TypeServiceSerializer, DistricteSerializer, RegionSerializer
+    TypeServiceSerializer, DistricteSerializer, RegionSerializer, GetOfertaSerializer
 from django.http import HttpResponse
 from django.template.loader import get_template
 from xhtml2pdf import pisa
@@ -11,6 +12,42 @@ from .models import Oferta, InspectionGeneral, TwoTypeService, TypeService, Dist
 from .numer_write_word import son, float2comma
 from django.views.generic import View
 from django.conf import settings
+
+
+# All Oferta
+class OfertaAll(views.APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        oferta = Oferta.objects.all()
+        return Response(GetOfertaSerializer(oferta, many=True).data, status=status.HTTP_200_OK)
+
+
+# Detail Oferta
+class DetailOferta(views.APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request, sagrement=None, *args, **kwargs):
+        contract = get_object_or_404(Oferta, code_number=kwargs['number'])
+        agrement = AllContractserializer(contract)
+        if TypeService.objects.filter(type=agrement.data.get('service_type')['type']).exists():
+            type = TypeService.objects.get(id=agrement.data.get('service_type')['id'])
+            type2 = TwoTypeService.objects.all().first()
+            if agrement.data.get('square_of_services') > 0:
+                if type.id == type2.type.id:
+                    if agrement.data.get('square_of_services') <= 50:
+                        agrement.data.get('service_type')['value'] = TwoTypeService.objects.get(id=1).value
+                    if 50 < agrement.data.get('square_of_services') <= 100:
+                        agrement.data.get('service_type')['value'] = TwoTypeService.objects.get(id=2).value
+                    if agrement.data.get('square_of_services') > 100 and agrement.data.get(
+                            'square_of_services') <= 500:
+                        agrement.data.get('service_type')['value'] = TwoTypeService.objects.get(id=3).value
+                    if 500 < agrement.data.get('square_of_services') <= 1000:
+                        agrement.data.get('service_type')['value'] = TwoTypeService.objects.get(id=4).value
+                    if agrement.data.get('square_of_services') > 1000:
+                        agrement.data.get('service_type')['value'] = TwoTypeService.objects.get(id=5).value
+
+        return Response(agrement.data, status=status.HTTP_200_OK)
 
 
 # Get pdf of contract and contract data filter
@@ -38,7 +75,7 @@ class Agrement(views.APIView):
             data = serializer.validated_data
             regionall = District.objects.filter(region__id=serializer.data.get('region'))
             # check cadastre number is not minuse number
-            #if not str(serializer.data.get('cadastre_number')).isdigit():
+            # if not str(serializer.data.get('cadastre_number')).isdigit():
             #    return Response({"error": "can not enter minuse number  to cadastre number"},
             #                    status=status.HTTP_400_BAD_REQUEST)
             # check applicant_tin is not minuse number

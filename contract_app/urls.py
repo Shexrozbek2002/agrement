@@ -8,6 +8,8 @@ urlpatterns = [
     # path('crop/type',views.CropType.as_view()),
     path('district', views.DistrictAll.as_view()),
     path('region', views.Regionall.as_view()),
+    path('oferta/list', views.OfertaAll.as_view(), ),
+    path('oferta/list/<slug:number>', views.DetailOferta.as_view(), ),
     ##
     path('aferta/<slug:number>/pdf/', views.PdfVersionView.as_view(), name='pdf_of_ppp_registration_protocol'),
 ]

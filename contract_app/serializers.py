@@ -71,3 +71,10 @@ class InnOrCodeNumberSerializer(serializers.ModelSerializer):
     class Meta:
         model = Oferta
         fields = ['applicant_tin', 'code_number']
+
+
+# All Oferta is gotten in here
+class GetOfertaSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Oferta
+        fields = ['id', 'code_number', 'given_date', 'service_type', 'payment_amount', 'applicant_organization', 'paid_amount' ]
